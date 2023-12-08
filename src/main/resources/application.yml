@@ -69,11 +69,11 @@ fs:
       path: xxxxxxxxxxxxxxxxxxx
     #oss配置
     oss:
-      accessKey: LTAI5tPsP4D4JXV5stD15JNj
-      secretKey: YVTFJi5oNHkF1iEbxraWEasX9XLI8k
-      endpoint: oss-cn-hangzhou.aliyuncs.com
-      bucket: njnufxd
-      path: https://njnufxd.oss-cn-hangzhou.aliyuncs.com/
+      accessKey: xxxxxxxxxxxxxxxxxxx
+      secretKey: xxxxxxxxxxxxxxxxxxx
+      endpoint: xxxxxxxxxxxxxxxxxxx
+      bucket: xxxxxxxxxxxxxxxxxxx
+      path: xxxxxxxxxxxxxxxxxxx
 
 
 # 第三方登录配置
@@ -81,13 +81,13 @@ justauth:
   enabled: true
   type:
     GITEE:
-      client-id: e864a9811041239345572d533ae01c775ba70016b39f2014a90c67bbef2ab58d
-      client-secret: e864a9811041239345572d533ae01c775ba70016b39f2014a90c67bbef2ab58d
-      redirect-uri: http://njnufxd.cn/oauth/callback/gitee
+      client-id: xxxxxxxxxxxxxxxxxxx
+      client-secret: xxxxxxxxxxxxxxxxxxx
+      redirect-uri: xxxxxxxxxxxxxxxxxxx
     GITHUB:
-      client-id: e27962fe22131d00b6ed
-      client-secret: b127b3410c7de1d4b8c0f85b9a7b0ee8113b9911
-      redirect-uri: http://njnufxd.cn/oauth/callback/github
+      client-id: xxxxxxxxxxxxxxxxxxx
+      client-secret: xxxxxxxxxxxxxxxxxxx
+      redirect-uri: xxxxxxxxxxxxxxxxxxx
 
 ############## Sa-Token 配置 (文档: https://sa-token.cc) ##############
 sa-token:
