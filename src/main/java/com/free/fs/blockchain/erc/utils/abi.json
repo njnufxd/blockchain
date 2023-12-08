@@ -1,0 +1,54 @@
+[
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "leaf",
+        "type": "bytes32"
+      },
+      {
+        "name": "proof",
+        "type": "bytes32[]"
+      },
+      {
+        "name": "location",
+        "type": "bool[]"
+      },
+      {
+        "name": "hash",
+        "type": "bytes32"
+      },
+      {
+        "name": "_address",
+        "type": "address"
+      }
+    ],
+    "name": "verifySingleProof",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_address",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "success",
+        "type": "bool"
+      }
+    ],
+    "name": "VerificationResult",
+    "type": "event"
+  }
+]
